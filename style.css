@@ -1,0 +1,90 @@
+html {
+  scroll-behavior: smooth;
+}
+
+section {
+  padding-top: 60px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+#home {
+  background: url("hero.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* About section styling */
+#about {
+  padding-top: 80px;
+  /* Increased padding to create more space above */
+  padding-bottom: 80px;
+  /* Increased padding for more space below */
+}
+
+#about .container {
+  max-width: 800px;
+  /* Restrict width for better readability on large screens */
+}
+
+#about h2 {
+  font-size: 3rem;
+  /* Increased font size for the heading */
+  font-weight: 700;
+  /* Bold heading */
+  margin-bottom: 40px;
+  /* Extra space below the heading */
+}
+
+#about p {
+  font-size: 1.4rem;
+  /* Increased font size for the paragraph */
+  line-height: 1.8;
+  /* Added line height for better readability */
+  font-weight: 400;
+  /* Regular weight for better balance */
+  color: #555;
+  /* Slightly darker color for better contrast */
+  text-align: justify;
+  /* Align text to both sides for a clean look */
+  margin-bottom: 30px;
+  /* Added margin at the bottom for spacing */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  #about h2 {
+    font-size: 2.5rem;
+    /* Adjust heading size on smaller screens */
+  }
+
+  #about p {
+    font-size: 1.2rem;
+    /* Adjust paragraph text size on smaller screens */
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  #home h1 {
+    font-size: 2.5rem;
+  }
+}
