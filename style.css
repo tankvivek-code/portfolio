@@ -24,7 +24,7 @@ section {
 }
 
 #home {
-  background: url("hero.jpg") no-repeat center center;
+  background: url("images/hero.jpg") no-repeat center center;
   background-size: cover;
   height: 100vh;
 }
